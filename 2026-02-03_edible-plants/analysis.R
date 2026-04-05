@@ -19,7 +19,8 @@ ggplot(dfC_summary,
   geom_linerange(size = 4, lineend = "round") +
   labs(colour = "Median Hardiness", y = "Cultivation Type", x = "pH Range")+
   scale_colour_discrete(drop = FALSE) + #check this
-  scale_color_manual(labels = c("Tender", "Medium", "Hardy", "Very Hardy"), values = c("#dadaeb", "#9e9ac8", "#6a51a3", "#2d0a5e")) + #colours from colorbrewer
+  scale_color_manual(labels = c("Tender", "Medium", "Hardy", "Very Hardy"), 
+                     values = c("#dadaeb", "#9e9ac8", "#6a51a3", "#2d0a5e")) + #colours from colorbrewer
 theme_minimal()+
   theme(
     panel.grid = element_blank(),      
