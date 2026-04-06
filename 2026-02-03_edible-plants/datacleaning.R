@@ -7,7 +7,7 @@ library(data.table)
 tuesdata <- tidytuesdayR::tt_load('2026-02-03')
 df <- tuesdata$edible_plants
 
-====# data cleaning #====
+#data cleaning==== 
 #relevant columns at a glance: cultivation, sunlight, water, ph, nutrients, soil, season, temp class, grow temp, days harvest
 #not as relevant: tax name, description, requirements, sensitivities, energy, nutritional info
 
