@@ -50,11 +50,9 @@ df$temp_classN <- factor(df$temp_classN,
 
 df <- mutate(df,
              ph_midpt = (preferred_ph_upper + preferred_ph_lower)/2)
-summary(df$ph_midpt)
 ##ph range 
 df <- mutate(df,
              ph_range = preferred_ph_upper - preferred_ph_lower)
-summary(df$ph_range)
 
 #temp growing and #temp germination
 df$averageT <- as.character(df$temperature_growing)
