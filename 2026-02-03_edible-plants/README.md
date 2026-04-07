@@ -4,3 +4,5 @@ data source: https://github.com/rfordatascience/tidytuesday/blob/main/data/2026/
 
 ## Aim
 Explores the preferred soil pH ranges of edible plants grouped by cultivation type, with colour indicating median hardiness. 
+
+## Finding
